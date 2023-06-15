@@ -39,7 +39,7 @@ jobs:
         python -m pytest -v tests
 
     - name: Pytest coverage comment
-      uses: aazizk/pytest-coverage-comment@main
+      uses: git@github.com:aazizk/week1-devops.git
       with:
         pytest-coverage-path: ./pytest-coverage.txt
         junitxml-path: ./pytest.xml
