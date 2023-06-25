@@ -1,0 +1,19 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.10, pytest-7.3.1, pluggy-1.0.0
+rootdir: /mnt/c/Users/khan_/github/week1-devops/week1-devops
+plugins: cov-4.1.0
+collected 4 items
+
+tests/test_calculator.py ....                                            [100%]
+
+---------- coverage: platform linux, python 3.8.10-final-0 -----------
+Name            Stmts   Miss  Cover   Missing
+---------------------------------------------
+calculator.py      15      6    60%   24-29
+---------------------------------------------
+TOTAL              24      6    75%
+
+1 file skipped due to complete coverage.
+
+
+============================== 4 passed in 0.08s ===============================
