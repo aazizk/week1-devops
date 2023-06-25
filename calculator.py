@@ -19,7 +19,7 @@ def div(a, b):
     return a / b
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": # pragma: no cover
     # Declare variable and set default values
     a = 4
     b = 2
